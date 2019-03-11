@@ -1,0 +1,115 @@
+/* Coursera : Introduction to CSS */
+/* Week 2 assignment */
+/* RAMG - 20181203 */
+
+/* STEP 1 : Modify body element -- Add padding and margin */
+
+body{
+    font-family: sans-serif;
+    padding: 0.025%;
+    margin: 1.75%;
+    font-size: 1em;
+}
+
+/* STEP 2 : Modify header -- Add background colour */
+
+header{
+  width: 100%;
+  background-color: #4A4A4A;
+  background-image: url('../images/flywheel.jpg');
+  background-size: cover;
+  padding: 1px;
+}
+
+/* THIS CODE BELONGS TO ASSIGNMENT 1 FROM PREVIOUS WEEK
+h1, h2 {
+    color: #3811A9;
+    text-transform: uppercase;
+}
+*/
+
+/* STEP 3 : Modify h1 element -- Change text colour ; increase text size */
+
+h1 {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 4.236em;
+}
+
+/* THIS CODE BELONGS TO ASSIGNMENT 1 FROM PREVIOUS WEEK
+
+section{
+  background-color: #4DD6AA;
+}
+
+*/
+
+/* THIS CODE BELONGS TO ASSIGNMENT 1 FROM PREVIOUS WEEK
+
+a{
+  background-color: #54000E;
+  color: #FFFF00;
+}
+
+*/
+
+/* STEP 4 : Modify links in nav element -- Spaced apart ; add background colour ; rounded borders ; no underline */
+nav {
+    text-align: center;
+}
+nav a{
+    display: inline-block;
+    width: 19%;
+    padding: 1%;
+    margin: 1%;
+    background-color: rgba(109, 83, 134, 0.35);
+    color: #FFFFFF;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+/* STEP 5 : Modify active class links -- Make them stand out from other links in the nav element */
+
+.active{
+    background-color: rgb(15, 25, 44);
+}
+
+/* STEP 6 : Define left and right classes -- Make them sit side-by-side ; change background colour for left class */
+
+.left{
+    display: inline-block;
+    width: 20%;
+    float: left;
+    background-color: rgb(25, 35, 99);
+}
+
+.right{
+    display: inline-block;
+    width: 70%;
+    float: left;
+    padding: 2%;
+}
+/* THIS CODE BELONGS TO ASSIGNMENT 1 FROM PREVIOUS WEEK
+
+img{
+  display: none;
+}
+
+*/
+
+/* STEP 7 : Image transformations -- Add border */
+
+img{
+    border: 3px dotted black;
+}
+
+/* STEP 8 : Left-class images -- Center them within the left class ; add space at top and bottom */
+
+.left img{
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}

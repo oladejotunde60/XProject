@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="css/style.css">
+        
+    </head>
+    <body>
+        <h1 id="title" onclick= console.log("this.innerHTML")>Lecture 53</h1>
+        <h2 id = "hay">Self Manipulation</h2>
+
+        <p>
+            Say hello to
+            <input onblur="sayHello();" id = "name" type ="text">
+            <button onclick="sayHello();">
+                Say it
+            </button>
+        
+        </p>
+        <img src="images/tunde.PNG" alt="My Picture" )>
+
+        <img src="images/tunde.PNG" alt="My Picture" onoverout="tosin();" onclick="console.log(this.alt)"> 
+        <div id="content"></div>
+        <script src="js/script.js"></script>
+
+<h1>Modify the DOM</h1>
+<button onclick="buttonOne();">First</button>
+<button onclick="buttonTwo();">Second</button>
+<p>This code shouldn't change.</p>
+<p id="stuff">This code will change</p>
+<p>This code shouldn't change</p>
+
+
+<button type="button" onclick="openMe();">Open!</button>
+<button type="button" onclick="closeMe();">Close!</button>
+
+<p id="demo">Extra details...You can open and close this paragraph using the buttons above.</p>
+
+<div id="message">Hover over an image</div>
+
+
+<div id="ID-1" onclick="displayId(this)">Hover Over</div>
+<div id="ID-2" onclick="displayId(this)">Div2</div>
+
+
+
+
+    </body>
+</html>

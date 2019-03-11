@@ -1,0 +1,88 @@
+body{
+    background-color: #EBF0F6;
+    margin: 20px;
+}
+
+
+
+h1 {
+    text-align: center;
+    color: #EBF0F6;  
+    font-size: 50px;     
+   
+} 
+
+header{
+    background: #666666;
+    background: -moz-linear-gradient(top, #132238 0%, #666666  100%);
+    background: -webkit-linear-gradient(#132238 0%, #666666  100%);
+    background: -o-linear-gradient(#132238 0%,  #666666  100%);
+    background: linear-gradient(#132238 0%, #666666  100%);
+}
+footer {
+    background: #666666;
+    background: -moz-linear-gradient(top, #98CCD3 0%, #666666  100%);
+    background: -webkit-linear-gradient(#98CCD3 0%, #666666f3  100%);
+    background: -o-linear-gradient(#98CCD3 0%,  #666666  100%);
+    background: linear-gradient(#98CCD3 0%, #666666  100%);
+    
+   
+}
+nav {
+    text-align: center;
+    font-variant: small-caps;
+    font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #EBF0F6;
+}
+.A, .B {
+    width: 40%;
+    margin-right: 2%;
+    float: left;
+}
+#a{
+    clear: both;
+}
+
+footer{
+    clear: both;
+    height: 150px;
+}
+nav > a {
+    display: inline-block;
+    font-weight: bold;
+    color: #131414;
+    background-color: rgb(241, 227, 227);
+    text-decoration: none;
+    margin: 20px;
+
+}
+ul{
+    list-style-image: URL("../b.PNG")
+}
+a:hover{
+    background: rgb(16, 33, 36);
+    color: #EBF0F6;
+}
+
+a:focus{
+    background: rgb(16, 33, 36);
+    color: #EBF0F6;
+}
+a:active{
+    border: 3px solid  rgb(11, 11, 12)
+}
+
+img {
+    width:100px;
+    height: 100px;
+}
+h2 {
+    background-color: #98CCD3;
+} 
+details{
+    font-style: italic;
+}
+summary{
+    font-style: normal;
+}

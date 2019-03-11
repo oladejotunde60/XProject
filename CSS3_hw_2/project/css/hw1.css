@@ -1,0 +1,301 @@
+img{
+ height: 200px;
+ width: 200px;
+ display: block;
+ margin:  auto;
+ margin-top: 30px;
+ margin-bottom: 30px;
+ border: 1px solid black;
+
+  }
+  
+ 
+  nav a:hover{
+    background: rgb(2, 123, 141);
+    color: rgb(205, 218, 233);
+}
+
+nav a:focus{
+    background: rgb(37, 85, 95);
+    color: #EBF0F6;
+}
+nav a:active{
+    border: 3px solid  rgb(11, 11, 12);
+}
+nav a.active {
+  background-color: rgba(255,255,255,1);
+  color: #693;
+}
+  body { 
+    margin: 20px;
+  }
+  .left{
+    width: 300px;
+    height:1000px;
+    background-color: rgba(53, 148, 41, 0.96);
+    text-align: center;
+    float: left;
+  }
+
+header{
+  background-image: url("../images/flywheel.jpg");
+  height: 150px;
+  background-color: #2B3595
+
+  }
+h1{
+  text-align: center
+ }
+h1{
+  color: #f8f4f4;
+  text-transform: uppercase;
+ }
+ h2{
+  color: #070707;
+  text-transform: uppercase;
+ }
+section{
+  background: #C8D9EB;
+  width: 77%;
+  float: right;
+  height: 1000px
+ }
+a{
+  background: rgb(13, 22, 32);
+  color: #2B3595;
+}
+nav{
+  text-align: center; 
+
+}
+nav > a {
+  width: 200px;
+  height: 40px;
+  display: inline-block;
+  font-weight: bold;
+  color: #131414;
+  background-color: rgba(241, 227, 227, 0.507);
+  text-decoration: none;
+  margin-right: 100px;
+  padding-top: 30px;
+  border-radius: 50px;
+}
+
+table{
+  margin: 0 auto;
+  width: 80%;
+  height: 200px;
+  line-height: 15px;
+  font-size: 15px;
+
+}
+th{
+
+  background-image: linear-gradient(#3E432E, #616F39, #A7D129); 
+  height: 40px;
+  color: #FFFFFF;
+  -webkit-border-radius: 10px 10px 0 0;
+  border-radius: 10px 10px 0 0;
+  border: 1px solid rgb(6, 19, 6);
+  border-bottom: 2px solid rgb(6, 19, 6);
+  text-shadow: 2px 2px rgba(1, 9, 19, 0.986);
+  padding: 5px;
+}
+
+tr:nth-child(2) {
+	
+  background: #93d299;
+  height: 34px;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+
+}
+
+
+tr:nth-child(2):hover{
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+
+}
+
+tr:nth-child(3) {
+	
+  background: #93d299;
+  height: 34px;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+
+}
+
+
+tr:nth-child(3):hover{
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+
+}
+th:nth-child(3) {
+  text-align: left;
+}
+
+
+tr:nth-child(4) {
+	
+  background: #93d299;
+  height: 34px;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+
+}
+
+
+tr:nth-child(4):hover{
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+
+}
+
+
+tr:nth-child(5) {
+	
+  background: #93d299;
+  height: 34px;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+
+}
+
+
+tr:nth-child(5):hover{
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+
+}
+
+
+tr:nth-child(6) {
+	
+  background: #93d299;
+  height: 34px;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+
+}
+
+
+tr:nth-child(6):hover{
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+
+}
+
+
+tr:nth-child(7) {
+	
+  background: #93d299;
+  height: 34px;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+
+}
+
+
+tr:nth-child(7):hover{
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+
+}
+
+
+tr:nth-child(8) {
+	
+  background: #93d299;
+  height: 34px;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+
+}
+
+
+tr:nth-child(8):hover{
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+
+}
+
+
+tr:nth-child(9) {
+	
+  background: #93d299;
+  height: 34px;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+
+}
+
+
+tr:nth-child(9):hover{
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+
+}
+
+
+tr:nth-child(10) {
+	
+  background: #93d299;
+  height: 34px;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+
+}
+
+
+tr:nth-child(10):hover{
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+
+}
+
+
+tr:nth-child(11) {
+	
+  background: #93d299;
+  height: 34px;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+
+}
+
+
+tr:nth-child(11):hover{
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+
+}
+
+
+
+th:nth-child(2) {
+  text-align: center;
+  width: 120px;
+}
+th:nth-child(3) {
+  text-align: center;
+  width: 120px;
+}
+td:nth-child(2) {
+  text-align: center;
+  padding: 5px;
+}
+td:nth-child(3) {
+  text-align: center;
+}
+
+td{
+  padding: 5px;
+  background: #93d299;
+  color: rgba(7, 7, 7, 0.788);
+  -webkit-border-radius: 2px 2px 2px 2px;
+  border-radius: 2px 2px 2px 2px;
+  text-shadow: .1px .1px rgba(126, 33, 5, 0.986); 
+}

@@ -1,0 +1,64 @@
+body{
+	padding : 5px;
+	margin: 5px;
+}
+
+header{
+	background-image: url("flywheel.jpg");
+	background-color: #d3d3d3;
+	padding: 25px 0px 25px 25px ;
+	background-size: 100% ;
+	
+}
+
+h1{
+	text-transform: uppercase;
+	text-align: center;
+	color:#FFFFFF;
+	
+}
+
+nav a{
+	font-color:#000000;
+	margin: 60px;
+	border-radius: 5px;
+	text-decoration: none;
+	padding:10px 50px;
+	background: rgba(1,1,1,.1);
+	font-weight: bold;
+	display: inline;
+}
+
+.link{
+	color:#000000;
+
+}
+.active{
+	color:#00008b;
+	background: rgba(255,255,255,1);
+}
+
+.image{
+	width: 250px;
+	margin:25px 25px 25px 25px;
+	border:3px solid #000000;
+}
+
+menu{
+	display: inline-block;
+	padding: 50px;
+}
+
+.left{
+	background-color: darkgreen;
+	padding: 10px 0px 0px 0px;
+	margin:0 auto;
+	display: block;
+	width: 300px;
+	float: left;
+}
+.right{
+	padding: 20px 0px 0px 0px;
+	margin:0px 0px 0px 310px;  /*using 0 auto causing the text too close to the background of left section*/
+
+}

@@ -1,0 +1,157 @@
+SQL Commands
+-------------------------------------------------------------------------------
+CREATING DATABASE
+
+CREATE DATABASE People DEFAULT CHARACTER SET utf8;
+
+-------------------------------------------------------------------------------------
+
+CREATING COLUMN
+
+CREATE TABLE Users (
+	name VARCHAR(128),
+	email VARCHAR(128)
+);
+---------------------------------------------------------------------------------------
+
+INSERT
+
+INSERT INTO Users (name, email, age, school) VALUES ("Wale", "wale@gmail.com", "18", "AAUA");
+---------------------------------------------------------------------------------
+DELETE
+
+DELETE FROM Users WHERE email="fr@gmail.com"
+----------------------------------------------------------------------------------
+UPDATE
+
+UPDATE Users SET name="Tunde" WHERE email="olad@gmail.com"
+--------------------------------------------------------------------------------
+Retrieving Records: SELECT
+
+SELECT * FROM Users
+
+SELECT * FROM Users WHERE email="olad@gmail.com" 
+
+----------------------------------------------------------------------------------
+
+Sorting with ORDER BY
+
+SELECT * FROM Users ORDER BY email
+
+--------------------------------------------------------------------------------
+The LIKE Clause
+
+SELECT * FROM Users WHERE name LIKE "%e%"
+
+-----------------------------------------------------------------------------------------
+
+SELECT * FROM Users ORDER BY email DESC LIMIT 2;
+SELECT * FROM Users ORDER BY email LIMIT 1,2;
+
+------------------------------------------------------------------------------------------
+Counting Rows with SELECT
+
+SELECT COUNT(*) FROM Users;
+
+SELECT COUNT(*) FROM Users WHERE email="olad@gmail.com"
+-----------------------------------------------------------------------------
+
+Text Fields
+
+TINYTEXT--- up to 255 characteristics
+
+TEXT--- up to 65k
+
+MEDIUMTEXT--- up to 16M
+
+LONGTEXT--- up to 4G
+------------------------------------------------------------------------------
+
+Binary Types (rarely used)
+
+Charcter = 8 - 32 bits of information depending on character set 
+
+Byte = 8 bits of information
+
+- BYTE(n) up to 255 bytes
+
+- VARBINARY(n) up to 65k bytes
+
+Small Images - data
+
+Not indexed or sorted  
+--------------------------------------------------------------------------
+
+Binary Large Object (BLOB)
+
+Large raw data, files, images, word doccuments, PDFs, movies, etc.
+
+No transition, indexing, or character set
+
+- TINYBLOB(n) - UP TO 255
+
+- BLOB(n) - up to 65k
+
+- MEDIUMBLOB(n) - up to 16M
+
+- LONGBLOB(n) - Up to 4G
+-------------------------------------------------------------------------------
+
+INTEGER NUMBERS
+
+Integer numbers are very efficient, take little storage, and are easy to process because CPUs can
+often compare them with single instruction.
+
+- TINYINT (-128,128)
+
+- SMALLINT (-32768, +32768)
+
+- INT or INTEGER (2 Billion)
+
+- BIGINT - (10**18 ish)
+
+----------------------------------------------------------------------------
+
+FLOATING POINT NUMBERS
+
+Floating point numbers can represent a wide range of values, but accuracy is limited.
+
+- FLOAT (32-bit) 10**38 with seven digits of accuracy
+
+- DOUBLE (64-bit) 10**308 with 14 digits of accuracy
+---------------------------------------------------------------------------
+
+DATES
+
+- TIMESTAMP - 'YYYY-MM-DD HH:MM:SS' (1970, 2037)
+
+- DATETIME - 'YYYY-MM-DD HH:MM:SS'
+
+- DATE - 'YYYY-MM-DD'
+
+- TIME - 'HH:MM:SS'
+
+--> Built-in MySQL function NOW()
+
+----------------------------------------------------------------------------------------
+
+AUTO_INCREMENT
+
+DROP TABLE Users;
+
+CREATE TABLE Users (
+user_id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+name VARCHAR(128),
+email VARCHAR(128),
+PRIMARY KEY(user_id),
+INDEX(email)
+)
+
+Specifying Indexes
+
+ALTER TABLE Users ADD INDEX (email) USING BTREE
+  
+-------------------------------------------------------------------------------
+TO GET SHA1 VALUE
+
+SELECT sha1(CONCAT(name,age)) AS X FROM Ages ORDER BY X
